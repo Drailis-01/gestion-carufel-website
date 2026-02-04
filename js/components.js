@@ -75,7 +75,6 @@ function loadFooter() {
             <div class="footer-content">
                 <div class="footer-section footer-brand">
                     <img src="footer-logo.png" alt="Gestion Carufel Inc." class="footer-logo">
-                    <h3>Gestion Carufel Inc.</h3>
                     <p data-i18n="footer.brand.tagline">Transformando ideas en estructuras sólidas desde hace más de 20 años.</p>
                     <div class="social-links">
                         <a href="https://www.facebook.com/GestionCaurfel" target="_blank" rel="noopener noreferrer" title="Facebook" aria-label="Facebook">
