@@ -2084,6 +2084,7 @@ footer .container {
     width: 180px;
     height: 180px;
     margin-bottom: 0.5rem;
+    margin-top: -40px;
     filter: brightness(1.1);
 }
 
