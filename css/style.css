@@ -952,12 +952,16 @@ body > .skiptranslate {
 
 .certification-card {
     background-color: var(--white);
-    padding: 1rem;
+    padding: 1.5rem 1rem;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
     text-align: center;
     transition: all var(--transition-normal);
     border: 2px solid rgba(0, 0, 0, 0.05);
+    aspect-ratio: 3 / 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .certification-card:hover {
