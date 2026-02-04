@@ -941,6 +941,10 @@ body > .skiptranslate {
     align-items: start;
 }
 
+.certifications-grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
 /* Responsive para certifications-grid */
 @media (max-width: 992px) {
     .certifications-grid {
