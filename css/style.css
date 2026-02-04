@@ -2093,6 +2093,14 @@ footer .container {
     margin-top: 0.25rem;
 }
 
+.rbq-license {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
 /* Contact List */
 .contact-list li {
     display: flex;

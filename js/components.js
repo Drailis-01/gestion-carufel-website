@@ -76,6 +76,7 @@ function loadFooter() {
                 <div class="footer-section footer-brand">
                     <img src="footer-logo.png" alt="Gestion Carufel Inc." class="footer-logo">
                     <p data-i18n="footer.brand.tagline">Transformando ideas en estructuras sólidas desde hace más de 20 años.</p>
+                    <p class="rbq-license">RBQ: 5838 - 6632 - 01</p>
                     <div class="social-links">
                         <a href="https://www.facebook.com/GestionCaurfel" target="_blank" rel="noopener noreferrer" title="Facebook" aria-label="Facebook">
                             <svg viewBox="0 0 24 24" fill="currentColor">
