@@ -2027,6 +2027,7 @@ footer .container {
     gap: var(--spacing-sm);
     margin-bottom: var(--spacing-xs);
     background-color: transparent !important;
+    align-items: center;
 }
 
 .footer-section {
