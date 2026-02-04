@@ -2009,7 +2009,7 @@ body > .skiptranslate {
 footer {
     background-color: #333333 !important;
     color: var(--white);
-    padding: var(--spacing-md) 0 var(--spacing-sm);
+    padding: var(--spacing-sm) 0 var(--spacing-xs);
     margin-top: var(--spacing-lg);
 }
 
@@ -2024,8 +2024,8 @@ footer .container {
 .footer-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: var(--spacing-md);
-    margin-bottom: var(--spacing-sm);
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-xs);
     background-color: transparent !important;
 }
 
