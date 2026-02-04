@@ -492,6 +492,23 @@ body > .skiptranslate {
     min-height: 600px;
     display: flex;
     align-items: center;
+    position: relative;
+}
+
+.hero-background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 138, 92, 0.08);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 1;
 }
 
 .hero-content {
