@@ -2083,7 +2083,7 @@ footer .container {
 .footer-logo {
     width: 180px;
     height: 180px;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
     margin-top: -40px;
     filter: brightness(1.1);
 }
@@ -2097,7 +2097,7 @@ footer .container {
     color: rgba(255, 255, 255, 0.9);
     font-size: 0.95rem;
     font-weight: 500;
-    margin-top: 0.5rem;
+    margin-top: 0;
     margin-bottom: 0.5rem;
 }
 
