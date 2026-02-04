@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Servicios profesionales de terrassement - preparación y nivelación de terrenos.">
+    <title>Terrassement - Gestion Carufel Inc.</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="stylesheet" href="css/style.css?v=1.0">
+    <script src="js/components.js"></script>
+</head>
+<body>
+    <!-- El header se cargará automáticamente desde components.js -->
+
+    <!-- HERO SECTION -->
+    <section class="hero" style="min-height: 400px;">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Servicios de <span class="highlight">Terrassement</span></h1>
+                    <p>Preparación profesional y nivelación de terrenos. La base perfecta para cualquier proyecto de construcción.</p>
+                    <a href="contacto.html" class="btn btn-primary">Solicitar Cotización</a>
+                </div>
+                <div class="hero-image">
+                    <svg style="width: 8rem; height: 8rem; color: var(--primary-color); fill: var(--primary-color);" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-9l1.96 2.5H17V9.5h2.5zm-1.5 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ¿QUÉ ES TERRASSEMENT? -->
+    <section>
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 style="color: var(--primary-color); margin-bottom: 1rem;">¿Qué es el Terrassement?</h2>
+                    <p style="margin-bottom: 1rem;">
+                        El terrassement es un proceso fundamental en la construcción que consiste en la preparación del terreno mediante excavación, relleno, nivelación y compactación. Es la base sobre la cual se construye cualquier estructura sólida y duradera.
+                    </p>
+                    <p style="margin-bottom: 1rem;">
+                        Un terrassement bien ejecutado garantiza la estabilidad de la construcción, previene problemas estructurales futuros y asegura un drenaje adecuado del agua.
+                    </p>
+                    <p>
+                        Nuestro equipo especializado cuenta con la experiencia y maquinaria necesaria para realizar trabajos de terrassement de cualquier magnitud con precisión milimétrica.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <svg style="width: 100%; height: 100%; max-width: 250px; max-height: 250px; margin: 0 auto; color: var(--primary-color); fill: var(--primary-color);" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="section-alt">
+        <div class="container">
+            <div class="section-title">
+                <p class="subtitle">Nuestros Servicios</p>
+                <h2>Trabajos de Terrassement</h2>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-item">
+                    <svg class="feature-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                    </svg>
+                    <h4>Nivelación de Terrenos</h4>
+                    <p>Preparación y nivelación precisa del suelo para construcciones residenciales y comerciales.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <svg class="feature-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                    </svg>
+                    <h4>Terrassement para Cimientos</h4>
+                    <p>Preparación especializada del terreno para fundaciones sólidas y estables.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <svg class="feature-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/>
+                    </svg>
+                    <h4>Preparación para Pavimentación</h4>
+                    <p>Acondicionamiento de terreno para calles, estacionamientos y áreas pavimentadas.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <svg class="feature-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm9 7h-6v13h-2v-6h-2v6H9V9H3V7h18v2z"/>
+                    </svg>
+                    <h4>Sistemas de Drenaje</h4>
+                    <p>Instalación de sistemas de drenaje para manejo adecuado de aguas pluviales.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <svg class="feature-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"/>
+                    </svg>
+                    <h4>Movimiento de Tierra</h4>
+                    <p>Excavación y transporte de grandes volúmenes de tierra según especificaciones del proyecto.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <svg class="feature-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/>
+                    </svg>
+                    <h4>Compactación</h4>
+                    <p>Compactación profesional del suelo para garantizar estabilidad y resistencia óptimas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCESO -->
+    <section>
+        <div class="container">
+            <div class="section-title">
+                <p class="subtitle">Metodología</p>
+                <h2>Proceso de Terrassement</h2>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 2rem;">
+                <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center;">
+                    <svg style="width: 3rem; height: 3rem; margin: 0 auto 1rem; color: var(--primary-color); stroke: var(--primary-color);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/>
+                        <path d="m21 21-4.35-4.35"/>
+                    </svg>
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">Estudio del Suelo</h4>
+                    <p style="color: var(--gray-medium);">Análisis geotécnico completo para determinar características del terreno.</p>
+                </div>
+                
+                <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center;">
+                    <svg style="width: 3rem; height: 3rem; margin: 0 auto 1rem; color: var(--primary-color); stroke: var(--primary-color);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="12" y1="20" x2="12" y2="10"/>
+                        <line x1="18" y1="20" x2="18" y2="4"/>
+                        <line x1="6" y1="20" x2="6" y2="16"/>
+                    </svg>
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">Planificación</h4>
+                    <p style="color: var(--gray-medium);">Diseño del plan de trabajo con niveles y pendientes exactas.</p>
+                </div>
+                
+                <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center;">
+                    <svg style="width: 3rem; height: 3rem; margin: 0 auto 1rem; color: var(--primary-color); stroke: var(--primary-color);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                    </svg>
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">Excavación</h4>
+                    <p style="color: var(--gray-medium);">Remoción de tierra excedente y preparación del área de trabajo.</p>
+                </div>
+                
+                <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center;">
+                    <svg style="width: 3rem; height: 3rem; margin: 0 auto 1rem; color: var(--primary-color); stroke: var(--primary-color);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+                        <polyline points="2 17 12 22 22 17"/>
+                        <polyline points="2 12 12 17 22 12"/>
+                    </svg>
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">Nivelación</h4>
+                    <p style="color: var(--gray-medium);">Conformación del terreno según especificaciones técnicas del proyecto.</p>
+                </div>
+                
+                <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center;">
+                    <svg style="width: 3rem; height: 3rem; margin: 0 auto 1rem; color: var(--primary-color); stroke: var(--primary-color);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                    </svg>
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">Compactación</h4>
+                    <p style="color: var(--gray-medium);">Compresión del suelo para lograr densidad y resistencia óptimas.</p>
+                </div>
+                
+                <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center;">
+                    <svg style="width: 3rem; height: 3rem; margin: 0 auto 1rem; color: var(--primary-color); stroke: var(--primary-color);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                        <polyline points="22 4 12 14.01 9 11.01"/>
+                    </svg>
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">Verificación</h4>
+                    <p style="color: var(--gray-medium);">Control de calidad con mediciones topográficas de precisión.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VENTAJAS -->
+    <section class="section-alt">
+        <div class="container">
+            <div class="section-title">
+                <p class="subtitle">Beneficios</p>
+                <h2>Importancia del Terrassement Profesional</h2>
+            </div>
+            
+            <div style="max-width: 900px; margin: 2rem auto;">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                    <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                        <h4 style="color: var(--primary-color); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                            <svg style="width: 1.5rem; height: 1.5rem; stroke: var(--primary-color);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                            </svg>
+                            Estabilidad Estructural
+                        </h4>
+                        <p style="color: var(--gray-medium);">
+                            Un terreno bien preparado previene asentamientos diferenciales y garantiza la estabilidad a largo plazo de cualquier construcción.
+                        </p>
+                    </div>
+                    
+                    <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                        <h4 style="color: var(--primary-color); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                            <svg style="width: 1.5rem; height: 1.5rem; stroke: var(--primary-color);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+                            </svg>
+                            Drenaje Adecuado
+                        </h4>
+                        <p style="color: var(--gray-medium);">
+                            La correcta nivelación y pendiente aseguran el flujo apropiado de agua, evitando inundaciones y problemas de humedad.
+                        </p>
+                    </div>
+                    
+                    <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                        <h4 style="color: var(--primary-color); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                            <svg style="width: 1.5rem; height: 1.5rem; stroke: var(--primary-color);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="1" x2="12" y2="23"/>
+                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                            </svg>
+                            Ahorro a Largo Plazo
+                        </h4>
+                        <p style="color: var(--gray-medium);">
+                            Invertir en terrassement de calidad previene costosas reparaciones futuras y prolonga la vida útil de las estructuras.
+                        </p>
+                    </div>
+                    
+                    <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                        <h4 style="color: var(--primary-color); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                            <svg style="width: 1.5rem; height: 1.5rem; stroke: var(--primary-color);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="21" y1="10" x2="3" y2="10"/>
+                                <line x1="21" y1="6" x2="3" y2="6"/>
+                                <line x1="21" y1="14" x2="3" y2="14"/>
+                                <line x1="21" y1="18" x2="3" y2="18"/>
+                            </svg>
+                            Precisión Milimétrica
+                        </h4>
+                        <p style="color: var(--gray-medium);">
+                            Utilizamos tecnología topográfica avanzada para lograr niveles exactos según especificaciones del proyecto.
+                        </p>
+                    </div>
+                    
+                    <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                        <h4 style="color: var(--primary-color); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                            <svg style="width: 1.5rem; height: 1.5rem; stroke: var(--primary-color);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                            </svg>
+                            Eficiencia
+                        </h4>
+                        <p style="color: var(--gray-medium);">
+                            Terrenos bien preparados facilitan y aceleran las siguientes fases de construcción, optimizando tiempos y costos.
+                        </p>
+                    </div>
+                    
+                    <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                        <h4 style="color: var(--primary-color); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                            <svg style="width: 1.5rem; height: 1.5rem; stroke: var(--primary-color);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            Sostenibilidad
+                        </h4>
+                        <p style="color: var(--gray-medium);">
+                            Gestión responsable de materiales y técnicas que minimizan el impacto ambiental del proyecto.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EQUIPOS Y TÉCNICAS -->
+    <section>
+        <div class="container">
+            <div class="section-title" style="text-align: center; max-width: 800px; margin: 0 auto 3rem;">
+                <p class="subtitle">Equipos Especializados</p>
+                <h2>Tecnología de Punta para Terrassement</h2>
+                <p style="color: var(--gray-medium);">
+                    Contamos con maquinaria moderna y tecnología de medición precisa
+                </p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem;">
+                <div style="background-color: var(--white); padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                        <svg viewBox="0 0 24 24" fill="white" style="width: 32px; height: 32px;">
+                            <path d="M20,8h-3V4H3C1.9,4,1,4.9,1,6v12c0,1.1,0.9,2,2,2h1c0,1.66,1.34,3,3,3s3-1.34,3-3h6c0,1.66,1.34,3,3,3s3-1.34,3-3h1c1.1,0,2-0.9,2-2v-5L20,8z"/>
+                        </svg>
+                    </div>
+                    <h3 style="margin-bottom: 1rem; color: var(--gray-dark);">Motoniveladoras</h3>
+                    <p style="color: var(--gray-medium); line-height: 1.8;">
+                        Equipos de alta precisión para nivelación perfecta de grandes superficies. Ideales para preparación de terrenos comerciales, estacionamientos y vías de acceso.
+                    </p>
+                </div>
+
+                <div style="background-color: var(--white); padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                        <svg viewBox="0 0 24 24" fill="white" style="width: 32px; height: 32px;">
+                            <path d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"/>
+                        </svg>
+                    </div>
+                    <h3 style="margin-bottom: 1rem; color: var(--gray-dark);">Compactadoras Vibratorias</h3>
+                    <p style="color: var(--gray-medium); line-height: 1.8;">
+                        Rodillos compactadores de última generación para lograr densidades óptimas del suelo. Garantizan estabilidad y previenen asentamientos futuros.
+                    </p>
+                </div>
+
+                <div style="background-color: var(--white); padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                        <svg viewBox="0 0 24 24" fill="white" style="width: 32px; height: 32px;">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                        </svg>
+                    </div>
+                    <h3 style="margin-bottom: 1rem; color: var(--gray-dark);">Estación Total GPS</h3>
+                    <p style="color: var(--gray-medium); line-height: 1.8;">
+                        Tecnología topográfica de precisión milimétrica para mediciones exactas. Asegura que cada nivel y pendiente cumpla exactamente con las especificaciones.
+                    </p>
+                </div>
+
+                <div style="background-color: var(--white); padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                        <svg viewBox="0 0 24 24" fill="white" style="width: 32px; height: 32px;">
+                            <path d="M18,10h3v3h-3V10z M3,3v18h18V3H3z M19,19H5V5h14V19z M7,10h3v3H7V10z M12.5,10h3v3h-3V10z"/>
+                        </svg>
+                    </div>
+                    <h3 style="margin-bottom: 1rem; color: var(--gray-dark);">Excavadoras Hidráulicas</h3>
+                    <p style="color: var(--gray-medium); line-height: 1.8;">
+                        Flota de excavadoras de diversos tamaños para movimiento de tierra controlado y excavaciones precisas en la preparación del terreno.
+                    </p>
+                </div>
+
+                <div style="background-color: var(--white); padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                        <svg viewBox="0 0 24 24" fill="white" style="width: 32px; height: 32px;">
+                            <path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/>
+                        </svg>
+                    </div>
+                    <h3 style="margin-bottom: 1rem; color: var(--gray-dark);">Sistema de Control Láser</h3>
+                    <p style="color: var(--gray-medium); line-height: 1.8;">
+                        Guía láser en tiempo real para los operadores, garantizando pendientes y niveles exactos durante todo el proceso de nivelación.
+                    </p>
+                </div>
+
+                <div style="background-color: var(--white); padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                        <svg viewBox="0 0 24 24" fill="white" style="width: 32px; height: 32px;">
+                            <path d="M19.5,3.5L18,2l-1.5,1.5L15,2l-1.5,1.5L12,2l-1.5,1.5L9,2L7.5,3.5L6,2v14H3v3c0,1.66,1.34,3,3,3h12c1.66,0,3-1.34,3-3V2L19.5,3.5z"/>
+                        </svg>
+                    </div>
+                    <h3 style="margin-bottom: 1rem; color: var(--gray-dark);">Camiones de Volteo</h3>
+                    <p style="color: var(--gray-medium); line-height: 1.8;">
+                        Flota de camiones para transporte eficiente de materiales de relleno y remoción de tierra excedente. Servicio rápido y coordinado.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TIPOS DE TERRASSEMENT -->
+    <section style="background-color: var(--gray-lighter);">
+        <div class="container">
+            <div class="section-title" style="text-align: center; max-width: 800px; margin: 0 auto 3rem;">
+                <p class="subtitle">Aplicaciones</p>
+                <h2>Terrassement para Diferentes Proyectos</h2>
+                <p style="color: var(--gray-medium);">
+                    Soluciones especializadas según el tipo de construcción
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                        </svg>
+                    </div>
+                    <h3>Terrassement Residencial</h3>
+                    <p style="color: var(--gray-medium); line-height: 1.8; margin-top: 1rem;">
+                        Preparación de terrenos para viviendas unifamiliares, biplexs y condominios. Incluye excavación de sótanos, nivelación para losas y sistemas de drenaje perimetral.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"/>
+                        </svg>
+                    </div>
+                    <h3>Terrassement Comercial</h3>
+                    <p style="color: var(--gray-medium); line-height: 1.8; margin-top: 1rem;">
+                        Preparación de grandes superficies para centros comerciales, oficinas y locales. Nivelación de estacionamientos y áreas de carga con pendientes precisas.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 2H9c-1.1 0-2 .9-2 2v5.5c0 .83.67 1.5 1.5 1.5H9v2H7v2h10v-2h-2v-2h.5c.83 0 1.5-.67 1.5-1.5V4c0-1.1-.9-2-2-2zm0 7.5H9V4h10v5.5zM5 16v2H3v6h18v-6h-2v-2H5z"/>
+                        </svg>
+                    </div>
+                    <h3>Terrassement Industrial</h3>
+                    <p style="color: var(--gray-medium); line-height: 1.8; margin-top: 1rem;">
+                        Movimientos masivos de tierra para plantas industriales, bodegas y naves. Compactación reforzada para soportar cargas pesadas y maquinaria.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18 4l-4 4h3v7c0 1.1-.9 2-2 2s-2-.9-2-2V8c0-2.21-1.79-4-4-4S5 5.79 5 8v7H2l4 4 4-4H7V8c0-1.1.9-2 2-2s2 .9 2 2v7c0 2.21 1.79 4 4 4s4-1.79 4-4V8h3l-4-4z"/>
+                        </svg>
+                    </div>
+                    <h3>Terrassement Vial</h3>
+                    <p style="color: var(--gray-medium); line-height: 1.8; margin-top: 1rem;">
+                        Preparación de bases para calles, avenidas y vías de acceso. Creación de sub-bases granulares con compactación según normas del MTQ (Ministère des Transports du Québec).
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12,2C8.13,2,5,5.13,5,9c0,5.25,7,13,7,13s7-7.75,7-13C19,5.13,15.87,2,12,2z M7,9c0-2.76,2.24-5,5-5s5,2.24,5,5c0,2.88-2.88,7.19-5,9.88C9.92,16.21,7,11.85,7,9z M15,9c0,1.66-1.34,3-3,3s-3-1.34-3-3s1.34-3,3-3S15,7.34,15,9z"/>
+                        </svg>
+                    </div>
+                    <h3>Terrassement Paisajístico</h3>
+                    <p style="color: var(--gray-medium); line-height: 1.8; margin-top: 1rem;">
+                        Conformación artística del terreno para jardines, parques y áreas verdes. Creación de pendientes, terrazas y montículos con acabados suaves.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+                        </svg>
+                    </div>
+                    <h3>Terrassement Deportivo</h3>
+                    <p style="color: var(--gray-medium); line-height: 1.8; margin-top: 1rem;">
+                        Nivelación ultra-precisa para canchas deportivas, campos de golf y pistas atléticas. Tolerancias milimétricas para superficies deportivas profesionales.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PREGUNTAS FRECUENTES -->
+    <section>
+        <div class="container">
+            <div class="section-title" style="text-align: center; max-width: 800px; margin: 0 auto 3rem;">
+                <p class="subtitle">FAQ</p>
+                <h2>Preguntas Frecuentes sobre Terrassement</h2>
+                <p style="color: var(--gray-medium);">
+                    Respuestas a las preguntas más comunes sobre preparación de terrenos
+                </p>
+            </div>
+
+            <div style="max-width: 900px; margin: 0 auto;">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 style="font-size: 1.1rem; color: var(--gray-dark); margin: 0;">¿Cuánto cuesta el terrassement de un terreno?</h3>
+                        <svg viewBox="0 0 24 24" fill="var(--primary-color)" style="width: 24px; height: 24px; min-width: 24px;">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p style="color: var(--gray-medium); line-height: 1.8;">
+                            El costo varía según múltiples factores: tamaño del terreno (medido en m²), volumen de tierra a mover (m³), tipo de suelo, accesibilidad del sitio, nivel de compactación requerido, y necesidad de materiales de relleno. En promedio, el terrassement residencial cuesta entre $8,000 y $25,000. Ofrecemos evaluaciones gratuitas in situ con cotizaciones detalladas y transparentes.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 style="font-size: 1.1rem; color: var(--gray-dark); margin: 0;">¿Qué incluye un servicio completo de terrassement?</h3>
+                        <svg viewBox="0 0 24 24" fill="var(--primary-color)" style="width: 24px; height: 24px; min-width: 24px;">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p style="color: var(--gray-medium); line-height: 1.8;">
+                            Un servicio completo incluye: levantamiento topográfico inicial, limpieza y desbroce del terreno, excavación o relleno según necesidad, nivelación según planos, compactación por capas, instalación de sistemas de drenaje si se requiere, verificación topográfica final, y limpieza del sitio. También gestionamos permisos municipales necesarios y coordinamos con Info-Excavation.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 style="font-size: 1.1rem; color: var(--gray-dark); margin: 0;">¿Cuánto tiempo toma el terrassement?</h3>
+                        <svg viewBox="0 0 24 24" fill="var(--primary-color)" style="width: 24px; height: 24px; min-width: 24px;">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p style="color: var(--gray-medium); line-height: 1.8;">
+                            Un terreno residencial típico (lote estándar) toma entre 3 y 7 días laborables. Factores que influyen: tamaño del proyecto, condiciones climáticas, tipo de suelo, necesidad de relleno importado, y complejidad del drenaje. Proyectos comerciales grandes pueden requerir 2-4 semanas. Proporcionamos cronogramas detallados al inicio del proyecto.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 style="font-size: 1.1rem; color: var(--gray-dark); margin: 0;">¿Qué tipo de suelo es mejor para la construcción?</h3>
+                        <svg viewBox="0 0 24 24" fill="var(--primary-color)" style="width: 24px; height: 24px; min-width: 24px;">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p style="color: var(--gray-medium); line-height: 1.8;">
+                            Los suelos granulares (grava, arena gruesa) son ideales por su excelente capacidad de drenaje y alta capacidad de carga. Suelos arcillosos requieren manejo especial. Si el suelo natural no es adecuado, lo reemplazamos con materiales granulares certificados (MG-20, MG-112). Realizamos análisis geotécnico previo para determinar la mejor estrategia y asegurar estabilidad a largo plazo.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 style="font-size: 1.1rem; color: var(--gray-dark); margin: 0;">¿Por qué es importante la compactación?</h3>
+                        <svg viewBox="0 0 24 24" fill="var(--primary-color)" style="width: 24px; height: 24px; min-width: 24px;">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p style="color: var(--gray-medium); line-height: 1.8;">
+                            La compactación adecuada es crucial para prevenir asentamientos futuros que causarían grietas en cimientos, losas y pavimentos. Compactamos por capas de 15-30cm, alcanzando 95-98% de densidad Proctor según especificaciones. Utilizamos compactadoras vibratorias y verificamos la densidad con equipos de medición. Una compactación deficiente es la causa #1 de problemas estructurales evitables.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 style="font-size: 1.1rem; color: var(--gray-dark); margin: 0;">¿Pueden hacer terrassement en terrenos con pendiente?</h3>
+                        <svg viewBox="0 0 24 24" fill="var(--primary-color)" style="width: 24px; height: 24px; min-width: 24px;">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p style="color: var(--gray-medium); line-height: 1.8;">
+                            Sí, somos especialistas en terrenos con pendiente pronunciada. Utilizamos técnicas de aterrazamiento, muros de contención cuando es necesario, y sistemas de drenaje especializados para manejar escorrentías. Creamos plataformas niveladas respetando la topografía natural y minimizando movimientos de tierra. Cada proyecto incluye estudio de estabilidad de taludes y soluciones de ingeniería apropiadas.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 style="font-size: 1.1rem; color: var(--gray-dark); margin: 0;">¿Cómo manejan el drenaje del terreno?</h3>
+                        <svg viewBox="0 0 24 24" fill="var(--primary-color)" style="width: 24px; height: 24px; min-width: 24px;">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p style="color: var(--gray-medium); line-height: 1.8;">
+                            El drenaje es parte integral de nuestro terrassement. Creamos pendientes de 2-5% para escorrentía superficial, instalamos drenes franceses perimetrales según necesidad, dirigimos aguas hacia puntos de descarga apropiados, e instalamos sistemas de captación pluvial cuando se requiere. Diseñamos cada sistema según la topografía, pluviometría local y regulaciones municipales. Un buen drenaje previene erosión, inundaciones y daños a cimientos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 style="font-size: 1.1rem; color: var(--gray-dark); margin: 0;">¿Trabajan durante el invierno?</h3>
+                        <svg viewBox="0 0 24 24" fill="var(--primary-color)" style="width: 24px; height: 24px; min-width: 24px;">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p style="color: var(--gray-medium); line-height: 1.8;">
+                            El terrassement es preferible en meses cálidos (abril-noviembre) cuando el suelo no está congelado y las condiciones son óptimas para compactación. Sin embargo, podemos realizar algunos trabajos en invierno usando técnicas especiales: calentamiento de suelos, protección de áreas excavadas, y aditivos anticongelantes cuando es apropiado. La temporada ideal permite mejor calidad y costos optimizados. Le asesoraremos sobre el mejor timing para su proyecto.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LLAMADA A LA ACCIÓN -->
+    <section style="background-color: var(--gray-lighter);">
+        <div class="container" style="text-align: center; padding: 4rem 2rem;">
+            <h2 style="margin-bottom: 1rem;">¿Necesitas Preparar tu Terreno?</h2>
+            <p style="font-size: 1.2rem; color: var(--gray-medium); margin-bottom: 2rem;">
+                Solicita una evaluación gratuita y comienza tu proyecto con la base adecuada
+            </p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="contacto.html" class="btn btn-primary" style="font-size: 1.1rem; padding: 1rem 2rem;">
+                    Solicitar Cotización
+                </a>
+                <a href="realizaciones.html" class="btn btn-outline" style="font-size: 1.1rem; padding: 1rem 2rem;">
+                    Ver Proyectos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- El footer se cargará automáticamente desde components.js -->
+
+    <!-- Botón Back to Top -->
+    <button id="backToTop" class="back-to-top" aria-label="Volver arriba">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+        </svg>
+    </button>
+
+    <script src="js/main.js"></script>
+    <script src="js/translator.js"></script>
+</body>
+</html>

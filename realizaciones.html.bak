@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre nuestros proyectos completados y la calidad de nuestro trabajo en construcción.">
+    <title>Nuestras Realizaciones - Gestion Carufel Inc.</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="stylesheet" href="css/style.css?v=1.0">
+    <script src="js/components.js"></script>
+</head>
+<body>
+    <!-- El header se cargará automáticamente desde components.js -->
+
+    <!-- HERO SECTION -->
+    <section class="hero" style="min-height: 400px;">
+        <div class="container">
+            <div style="text-align: center;">
+                <h1>Nuestras <span class="highlight">Realizaciones</span></h1>
+                <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto;">Más de 500 proyectos completados con éxito. Cada uno es testimonio de nuestro compromiso con la excelencia.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTOS 2025 -->
+    <section style="padding: 4rem 0;">
+        <div class="container">
+            <div class="section-title">
+                <p class="subtitle">Lo Más Reciente</p>
+                <h2>Proyectos Destacados 2025</h2>
+                <p style="max-width: 700px; margin: 1rem auto 0; text-align: center; color: var(--gray-medium);">
+                    Descubre nuestros proyectos más recientes. Navega por las fotos usando las flechas.
+                </p>
+            </div>
+            
+            <div class="projects-grid-2025">
+                
+                <!-- Proyecto 1 -->
+                <div class="project-card-2025">
+                    <div class="project-carousel">
+                        <button class="nav-btn prev-btn" onclick="changeSlide(this, -1)">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                            </svg>
+                        </button>
+                        
+                        <div class="carousel-slides">
+                            <div class="slide active" style="background: linear-gradient(135deg, #FF6B35 0%, #E65528 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 1 - Fachada</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #FF8A5C 0%, #FF6B35 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 2 - Interior</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #FF6B35 0%, #E65528 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 3 - Cocina</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #FF8A5C 0%, #FF6B35 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 4 - Baño</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #FF6B35 0%, #E65528 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 5 - Dormitorio</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #FF8A5C 0%, #FF6B35 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 6 - Vista General</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="nav-btn next-btn" onclick="changeSlide(this, 1)">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                            </svg>
+                        </button>
+                        
+                        <div class="slide-indicators">
+                            <span class="dot active" onclick="goToSlide(this, 0)"></span>
+                            <span class="dot" onclick="goToSlide(this, 1)"></span>
+                            <span class="dot" onclick="goToSlide(this, 2)"></span>
+                            <span class="dot" onclick="goToSlide(this, 3)"></span>
+                            <span class="dot" onclick="goToSlide(this, 4)"></span>
+                            <span class="dot" onclick="goToSlide(this, 5)"></span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Résidence Moderne - Laval</h3>
+                        <p>Casa unifamiliar de 3,500 pies² con acabados premium</p>
+                        <span class="project-badge">Construcción</span>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2 -->
+                <div class="project-card-2025">
+                    <div class="project-carousel">
+                        <button class="nav-btn prev-btn" onclick="changeSlide(this, -1)">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                            </svg>
+                        </button>
+                        
+                        <div class="carousel-slides">
+                            <div class="slide active" style="background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 1 - Excavación</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 2 - Estructura</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 3 - Piscina</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 4 - Iluminación</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 5 - Terraza</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 6 - Vista Completa</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="nav-btn next-btn" onclick="changeSlide(this, 1)">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                            </svg>
+                        </button>
+                        
+                        <div class="slide-indicators">
+                            <span class="dot active" onclick="goToSlide(this, 0)"></span>
+                            <span class="dot" onclick="goToSlide(this, 1)"></span>
+                            <span class="dot" onclick="goToSlide(this, 2)"></span>
+                            <span class="dot" onclick="goToSlide(this, 3)"></span>
+                            <span class="dot" onclick="goToSlide(this, 4)"></span>
+                            <span class="dot" onclick="goToSlide(this, 5)"></span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Piscine Creusée Elite - Terrebonne</h3>
+                        <p>Piscina 18x36 pies con sistema LED y terraza</p>
+                        <span class="project-badge" style="background: #2563eb;">Piscina</span>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3 -->
+                <div class="project-card-2025">
+                    <div class="project-carousel">
+                        <button class="nav-btn prev-btn" onclick="changeSlide(this, -1)">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                            </svg>
+                        </button>
+                        
+                        <div class="carousel-slides">
+                            <div class="slide active" style="background: linear-gradient(135deg, #059669 0%, #047857 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 1 - Recepción</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 2 - Área Abierta</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #059669 0%, #047857 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 3 - Conferencias</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 4 - Oficinas</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #059669 0%, #047857 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 5 - Descanso</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 6 - Fachada</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="nav-btn next-btn" onclick="changeSlide(this, 1)">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                            </svg>
+                        </button>
+                        
+                        <div class="slide-indicators">
+                            <span class="dot active" onclick="goToSlide(this, 0)"></span>
+                            <span class="dot" onclick="goToSlide(this, 1)"></span>
+                            <span class="dot" onclick="goToSlide(this, 2)"></span>
+                            <span class="dot" onclick="goToSlide(this, 3)"></span>
+                            <span class="dot" onclick="goToSlide(this, 4)"></span>
+                            <span class="dot" onclick="goToSlide(this, 5)"></span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Bureau Corporatif - Montréal</h3>
+                        <p>Renovación completa de oficina moderna 5,000 pies²</p>
+                        <span class="project-badge" style="background: #059669;">Comercial</span>
+                    </div>
+                </div>
+
+                <!-- Proyecto 4 -->
+                <div class="project-card-2025">
+                    <div class="project-carousel">
+                        <button class="nav-btn prev-btn" onclick="changeSlide(this, -1)">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                            </svg>
+                        </button>
+                        
+                        <div class="carousel-slides">
+                            <div class="slide active" style="background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 1 - Terreno Antes</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 2 - Excavación</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 3 - Nivelación</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 4 - Drenaje</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 5 - Compactación</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 6 - Vista Aérea</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="nav-btn next-btn" onclick="changeSlide(this, 1)">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                            </svg>
+                        </button>
+                        
+                        <div class="slide-indicators">
+                            <span class="dot active" onclick="goToSlide(this, 0)"></span>
+                            <span class="dot" onclick="goToSlide(this, 1)"></span>
+                            <span class="dot" onclick="goToSlide(this, 2)"></span>
+                            <span class="dot" onclick="goToSlide(this, 3)"></span>
+                            <span class="dot" onclick="goToSlide(this, 4)"></span>
+                            <span class="dot" onclick="goToSlide(this, 5)"></span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Terrassement Commercial - Repentigny</h3>
+                        <p>Preparación de terreno 2 acres para centro comercial</p>
+                        <span class="project-badge" style="background: #dc2626;">Terrassement</span>
+                    </div>
+                </div>
+
+                <!-- Proyecto 5 -->
+                <div class="project-card-2025">
+                    <div class="project-carousel">
+                        <button class="nav-btn prev-btn" onclick="changeSlide(this, -1)">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                            </svg>
+                        </button>
+                        
+                        <div class="carousel-slides">
+                            <div class="slide active" style="background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 1 - Estructura</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 2 - Piso Concreto</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 3 - Muelles Carga</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 4 - Eléctrico</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 5 - Oficinas</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 6 - Completo</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="nav-btn next-btn" onclick="changeSlide(this, 1)">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                            </svg>
+                        </button>
+                        
+                        <div class="slide-indicators">
+                            <span class="dot active" onclick="goToSlide(this, 0)"></span>
+                            <span class="dot" onclick="goToSlide(this, 1)"></span>
+                            <span class="dot" onclick="goToSlide(this, 2)"></span>
+                            <span class="dot" onclick="goToSlide(this, 3)"></span>
+                            <span class="dot" onclick="goToSlide(this, 4)"></span>
+                            <span class="dot" onclick="goToSlide(this, 5)"></span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Entrepôt Industriel - Mascouche</h3>
+                        <p>Bodega 15,000 pies² con piso reforzado</p>
+                        <span class="project-badge" style="background: #7c3aed;">Industrial</span>
+                    </div>
+                </div>
+
+                <!-- Proyecto 6 -->
+                <div class="project-card-2025">
+                    <div class="project-carousel">
+                        <button class="nav-btn prev-btn" onclick="changeSlide(this, -1)">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                            </svg>
+                        </button>
+                        
+                        <div class="carousel-slides">
+                            <div class="slide active" style="background: linear-gradient(135deg, #ea580c 0%, #c2410c 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 1 - Original</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 2 - Terrazas</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #ea580c 0%, #c2410c 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 3 - Muros</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 4 - Irrigación</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #ea580c 0%, #c2410c 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 5 - Plantación</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 6 - Final</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="nav-btn next-btn" onclick="changeSlide(this, 1)">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                            </svg>
+                        </button>
+                        
+                        <div class="slide-indicators">
+                            <span class="dot active" onclick="goToSlide(this, 0)"></span>
+                            <span class="dot" onclick="goToSlide(this, 1)"></span>
+                            <span class="dot" onclick="goToSlide(this, 2)"></span>
+                            <span class="dot" onclick="goToSlide(this, 3)"></span>
+                            <span class="dot" onclick="goToSlide(this, 4)"></span>
+                            <span class="dot" onclick="goToSlide(this, 5)"></span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Aménagement Paysager - Blainville</h3>
+                        <p>Terrazas escalonadas con muros de contención</p>
+                        <span class="project-badge" style="background: #ea580c;">Paisajismo</span>
+                    </div>
+                </div>
+
+                <!-- Proyecto 7 -->
+                <div class="project-card-2025">
+                    <div class="project-carousel">
+                        <button class="nav-btn prev-btn" onclick="changeSlide(this, -1)">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                            </svg>
+                        </button>
+                        
+                        <div class="carousel-slides">
+                            <div class="slide active" style="background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 1 - Planificación</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 2 - Excavación</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 3 - Estructura</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 4 - Acabados</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 5 - Unidades</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 6 - Complejo</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="nav-btn next-btn" onclick="changeSlide(this, 1)">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                            </svg>
+                        </button>
+                        
+                        <div class="slide-indicators">
+                            <span class="dot active" onclick="goToSlide(this, 0)"></span>
+                            <span class="dot" onclick="goToSlide(this, 1)"></span>
+                            <span class="dot" onclick="goToSlide(this, 2)"></span>
+                            <span class="dot" onclick="goToSlide(this, 3)"></span>
+                            <span class="dot" onclick="goToSlide(this, 4)"></span>
+                            <span class="dot" onclick="goToSlide(this, 5)"></span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Complexe Résidentiel - Brossard</h3>
+                        <p>Proyecto multi-familiar 24 unidades</p>
+                        <span class="project-badge" style="background: #0891b2;">Gestión</span>
+                    </div>
+                </div>
+
+                <!-- Proyecto 8 -->
+                <div class="project-card-2025">
+                    <div class="project-carousel">
+                        <button class="nav-btn prev-btn" onclick="changeSlide(this, -1)">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                            </svg>
+                        </button>
+                        
+                        <div class="carousel-slides">
+                            <div class="slide active" style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 1 - Marcación</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 2 - Excavación</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 3 - Cimientos</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 4 - Drenaje</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 5 - Impermeabilización</p>
+                                </div>
+                            </div>
+                            <div class="slide" style="background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);">
+                                <div class="slide-content">
+                                    <span style="font-size: 4rem;">📸</span>
+                                    <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: 600; color: white;">Foto 6 - Relleno</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="nav-btn next-btn" onclick="changeSlide(this, 1)">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                            </svg>
+                        </button>
+                        
+                        <div class="slide-indicators">
+                            <span class="dot active" onclick="goToSlide(this, 0)"></span>
+                            <span class="dot" onclick="goToSlide(this, 1)"></span>
+                            <span class="dot" onclick="goToSlide(this, 2)"></span>
+                            <span class="dot" onclick="goToSlide(this, 3)"></span>
+                            <span class="dot" onclick="goToSlide(this, 4)"></span>
+                            <span class="dot" onclick="goToSlide(this, 5)"></span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Excavation Fondations - Saint-Jérôme</h3>
+                        <p>Cimientos para triplex con sótano completo</p>
+                        <span class="project-badge" style="background: #f59e0b;">Excavación</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ESTADÍSTICAS -->
+    <section class="section-alt">
+        <div class="container">
+            <div class="section-title">
+                <p class="subtitle">Nuestro Impacto</p>
+                <h2>Números que Hablan</h2>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Proyectos Completados</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Satisfacción del Cliente</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-number">20+</div>
+                    <div class="stat-label">Años de Experiencia</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">Clientes Recurrentes</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LLAMADA A LA ACCIÓN -->
+    <section>
+        <div class="container" style="text-align: center; padding: 4rem 2rem;">
+            <h2 style="margin-bottom: 1rem;">¿Quieres que tu Proyecto sea el Siguiente?</h2>
+            <p style="font-size: 1.2rem; color: var(--gray-medium); margin-bottom: 2rem;">
+                Contáctanos hoy y hagamos realidad tu visión
+            </p>
+            <a href="contacto.html" class="btn btn-primary" style="font-size: 1.1rem; padding: 1rem 3rem;">
+                Solicitar Cotización Gratuita
+            </a>
+        </div>
+    </section>
+
+    <!-- El footer se cargará automáticamente desde components.js -->
+
+    <!-- Botón Back to Top -->
+    <button id="backToTop" class="back-to-top" aria-label="Volver arriba">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+        </svg>
+    </button>
+
+    <script src="js/main.js"></script>
+    <script src="js/carousel-simple.js"></script>
+    <script src="js/translator.js"></script>
+</body>
+</html>

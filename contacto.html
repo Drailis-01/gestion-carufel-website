@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacta con Gestion Carufel Inc. para solicitar una cotización gratuita para tu proyecto de construcción, excavación o terrassement en Quebec.">
+    <title>Contacto - Gestion Carufel Inc.</title>
+    <link rel="stylesheet" href="css/style.css?v=3.1">
+</head>
+<body>
+    <!-- HEADER -->
+    <div id="header-placeholder"></div>
+
+    <!-- HERO SECTION -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 data-i18n="contact.hero.title">Contacto</h1>
+            <p data-i18n="contact.hero.subtitle">Estamos aquí para ayudarte con tu proyecto</p>
+        </div>
+    </section>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Columna del Formulario -->
+                <div class="contact-form">
+                    <h2 data-i18n="contact.form.title">Solicita tu Cotización Gratuita</h2>
+                    <p data-i18n="contact.form.subtitle">Completa el formulario y nos pondremos en contacto contigo en menos de 24 horas</p>
+
+                    <form id="contactForm" novalidate>
+                    <!-- Nombre Completo -->
+                    <div class="form-group">
+                        <label for="name" data-i18n="contact.form.name.label">Nombre Completo *</label>
+                        <div class="form-input-wrapper">
+                            <svg class="form-input-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                            <input type="text" id="name" name="name" class="form-input" data-i18n-placeholder="contact.form.name.placeholder" placeholder="Juan Pérez" required>
+                        </div>
+                    </div>
+
+                    <!-- Email y Teléfono en la misma fila -->
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email" data-i18n="contact.form.email.label">Correo Electrónico *</label>
+                            <div class="form-input-wrapper">
+                                <svg class="form-input-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                                <input type="email" id="email" name="email" class="form-input" data-i18n-placeholder="contact.form.email.placeholder" placeholder="juan@ejemplo.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone" data-i18n="contact.form.phone.label">Teléfono *</label>
+                            <div class="form-input-wrapper">
+                                <svg class="form-input-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                                <input type="tel" id="phone" name="phone" class="form-input" data-i18n-placeholder="contact.form.phone.placeholder" placeholder="(514) 123-4567" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Servicio y Presupuesto en la misma fila -->
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="service" data-i18n="contact.form.service.label">Servicio de Interés *</label>
+                            <div class="form-input-wrapper">
+                                <svg class="form-input-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                                </svg>
+                                <select id="service" name="service" class="form-input" required>
+                                    <option value="" data-i18n="contact.form.service.option0">Selecciona un servicio</option>
+                                    <option value="construction" data-i18n="contact.form.service.option1">Construcción</option>
+                                    <option value="excavation" data-i18n="contact.form.service.option2">Excavación</option>
+                                    <option value="terrassement" data-i18n="contact.form.service.option3">Terrassement</option>
+                                    <option value="pave-uni" data-i18n="contact.form.service.option4">Pavé Uni</option>
+                                    <option value="landscaping" data-i18n="contact.form.service.option5">Aménagement Paysager</option>
+                                    <option value="project-management" data-i18n="contact.form.service.option6">Gestión de Proyectos</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="budget" data-i18n="contact.form.budget.label">Presupuesto Estimado</label>
+                            <div class="form-input-wrapper">
+                                <svg class="form-input-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="12" y1="1" x2="12" y2="23"></line>
+                                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                </svg>
+                                <select id="budget" name="budget" class="form-input">
+                                    <option value="" data-i18n="contact.form.budget.option0">Selecciona un rango</option>
+                                    <option value="5k-10k" data-i18n="contact.form.budget.option1">$5,000 - $10,000</option>
+                                    <option value="10k-25k" data-i18n="contact.form.budget.option2">$10,000 - $25,000</option>
+                                    <option value="25k-50k" data-i18n="contact.form.budget.option3">$25,000 - $50,000</option>
+                                    <option value="50k-100k" data-i18n="contact.form.budget.option4">$50,000 - $100,000</option>
+                                    <option value="100k+" data-i18n="contact.form.budget.option5">$100,000+</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mensaje -->
+                    <div class="form-group">
+                        <label for="message" data-i18n="contact.form.message.label">Mensaje / Descripción del Proyecto *</label>
+                        <div class="form-input-wrapper">
+                            <svg class="form-input-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                            </svg>
+                            <textarea id="message" name="message" class="form-input" rows="5" data-i18n-placeholder="contact.form.message.placeholder" placeholder="Describe tu proyecto, ubicación, plazos esperados..." required></textarea>
+                        </div>
+                        <small class="form-help" data-i18n="contact.form.message.help">Incluye detalles como ubicación, tamaño del proyecto, plazos deseados, etc.</small>
+                    </div>
+
+                    <!-- Adjuntar Archivos -->
+                    <div class="form-group">
+                        <label for="files">
+                            <span data-i18n="contact.form.files.label">Adjuntar Documentos o Fotos</span>
+                            <span class="optional" data-i18n="contact.form.files.optional">(Opcional)</span>
+                        </label>
+                        <div class="file-upload-area" id="fileUploadArea">
+                            <svg class="upload-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="17 8 12 3 7 8"></polyline>
+                                <line x1="12" y1="3" x2="12" y2="15"></line>
+                            </svg>
+                            <p>
+                                <span data-i18n="contact.form.files.drag">Arrastra archivos aquí o</span>
+                                <label for="files" class="file-upload-button" data-i18n="contact.form.files.button">haz clic para seleccionar</label>
+                            </p>
+                            <small data-i18n="contact.form.files.hint">Formatos: JPG, PNG, PDF, DOC, DWG (Max 10MB por archivo, hasta 5 archivos)</small>
+                            <input type="file" id="files" name="files" multiple accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.dwg" hidden>
+                        </div>
+                        <div id="fileList" class="file-list"></div>
+                    </div>
+
+                    <!-- Checkbox de Privacidad -->
+                    <div class="form-group">
+                        <div class="form-checkbox-wrapper">
+                            <input type="checkbox" id="privacy" name="privacy" required>
+                            <label for="privacy" data-i18n="contact.form.privacy">
+                                Acepto la política de privacidad y el tratamiento de mis datos personales *
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Botón de Envío -->
+                    <button type="submit" class="btn-submit">
+                        <span data-i18n="contact.form.submit">Enviar Solicitud</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </button>
+                </form>
+
+                    <!-- Mensaje de Éxito/Error -->
+                    <div id="formMessage" class="form-message" style="display: none;"></div>
+                </div>
+
+                <!-- Columna de Información de Contacto -->
+                <div class="contact-info-sidebar">
+                    <h3 data-i18n="contact.info.title">Información de Contacto</h3>
+                    
+                    <div class="contact-info-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <div>
+                            <h4 data-i18n="contact.info.address.title">Dirección</h4>
+                            <p data-i18n="contact.info.address.text">Montreal, Quebec, Canadá</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        <div>
+                            <h4 data-i18n="contact.info.phone.title">Teléfono</h4>
+                            <p><a href="tel:+14509323608" data-i18n="contact.info.phone.text">450-932-3608</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <div>
+                            <h4 data-i18n="contact.info.email.title">Email</h4>
+                            <p><a href="mailto:info@gestioncarufel.com">info@gestioncarufel.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        <div>
+                            <h4 data-i18n="contact.info.hours.title">Horario de Atención</h4>
+                            <p data-i18n="contact.info.hours.weekdays">Lunes - Viernes: 8:00 AM - 6:00 PM</p>
+                            <p data-i18n="contact.info.hours.saturday">Sábado: 9:00 AM - 2:00 PM</p>
+                            <p data-i18n="contact.info.hours.sunday">Domingo: Cerrado</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-cta">
+                        <h4 data-i18n="contact.why.response.title">Respuesta Rápida</h4>
+                        <p data-i18n="contact.why.response.desc">Responderemos en menos de 24 horas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: BENEFICIOS DE CONTACTARNOS -->
+    <section class="benefits-section">
+        <div class="container">
+            <h2 data-i18n="contact.benefits.title">¿Por Qué Contactarnos?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <svg class="benefit-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <h3 data-i18n="contact.benefits.fast.title">Respuesta Rápida</h3>
+                    <p data-i18n="contact.benefits.fast.desc">Te contactamos en menos de 24 horas con una respuesta profesional</p>
+                </div>
+
+                <div class="benefit-card">
+                    <svg class="benefit-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                        <polyline points="10 9 9 9 8 9"></polyline>
+                    </svg>
+                    <h3 data-i18n="contact.benefits.quote.title">Cotización Gratuita</h3>
+                    <p data-i18n="contact.benefits.quote.desc">Evaluación detallada y cotización sin compromiso para tu proyecto</p>
+                </div>
+
+                <div class="benefit-card">
+                    <svg class="benefit-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                    <h3 data-i18n="contact.benefits.advice.title">Asesoría Experta</h3>
+                    <p data-i18n="contact.benefits.advice.desc">Más de 13 años de experiencia para guiarte en tu proyecto</p>
+                </div>
+
+                <div class="benefit-card">
+                    <svg class="benefit-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                    <h3 data-i18n="contact.benefits.quality.title">Garantía de Calidad</h3>
+                    <p data-i18n="contact.benefits.quality.desc">Trabajamos con los más altos estándares de calidad y seguridad</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div id="footer-placeholder"></div>
+
+    <!-- BOTÓN BACK TO TOP -->
+    <button id="backToTop" class="back-to-top" aria-label="Volver arriba">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+        </svg>
+    </button>
+
+    <!-- Facebook Messenger Chat Plugin -->
+    <div id="fb-root"></div>
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "621529621050827");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v18.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- SCRIPTS -->
+    <script src="js/components.js"></script>
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

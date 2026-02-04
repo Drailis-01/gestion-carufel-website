@@ -1,0 +1,131 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "construction": "Construcción",
+    "excavation": "Excavación",
+    "terrassement": "Terrassement",
+    "projects": "Gestión de Proyectos",
+    "realizations": "Realizaciones",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Construcción de",
+    "titleHighlight": "Excelencia",
+    "subtitle": "Transformamos tus proyectos en realidad con profesionalismo, calidad y compromiso. Más de 20 años de experiencia nos respaldan.",
+    "ctaPrimary": "Solicitar Cotización",
+    "ctaSecondary": "Ver Proyectos"
+  },
+  "stats": {
+    "projects": "Proyectos Completados",
+    "experience": "Años de Experiencia",
+    "clients": "Clientes Satisfechos",
+    "onTime": "Proyectos a Tiempo"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones Integrales de Construcción",
+    "construction": {
+      "title": "Construcción",
+      "description": "Proyectos residenciales y comerciales de la más alta calidad, desde la planificación hasta la entrega final."
+    },
+    "excavation": {
+      "title": "Excavación",
+      "description": "Servicios especializados de excavación con maquinaria moderna y personal altamente capacitado."
+    },
+    "terrassement": {
+      "title": "Terrassement",
+      "description": "Preparación y nivelación de terrenos con precisión y eficiencia para cualquier tipo de proyecto."
+    },
+    "management": {
+      "title": "Gestión de Proyectos",
+      "description": "Administración completa de tu proyecto, asegurando tiempo, calidad y presupuesto controlados."
+    },
+    "viewMore": "Ver Más"
+  },
+  "whyUs": {
+    "subtitle": "Por Qué Elegirnos",
+    "title": "Compromiso con la Excelencia",
+    "experience": {
+      "title": "Experiencia Comprobada",
+      "description": "Más de 20 años de trayectoria en el sector de la construcción con cientos de proyectos exitosos."
+    },
+    "quality": {
+      "title": "Calidad Garantizada",
+      "description": "Utilizamos materiales de primera calidad y seguimos los más altos estándares de la industria."
+    },
+    "team": {
+      "title": "Personal Calificado",
+      "description": "Equipo de profesionales certificados y con amplia experiencia en cada área de especialización."
+    },
+    "deadlines": {
+      "title": "Cumplimiento de Plazos",
+      "description": "Nos comprometemos a entregar tus proyectos en el tiempo acordado sin sacrificar la calidad."
+    },
+    "pricing": {
+      "title": "Precios Competitivos",
+      "description": "Ofrecemos las mejores tarifas del mercado sin comprometer la excelencia de nuestro trabajo."
+    },
+    "safety": {
+      "title": "Seguridad Total",
+      "description": "Cumplimos con todas las normativas de seguridad laboral y contamos con seguros completos."
+    }
+  },
+  "certifications": {
+    "subtitle": "Certificaciones y Membresías",
+    "title": "Reconocimiento Profesional",
+    "description": "Contamos con todas las certificaciones y membresías necesarias para garantizar la calidad y seguridad de nuestros proyectos.",
+    "cnesst": {
+      "name": "CNESST",
+      "fullName": "Commission des normes, de l'équité, de la santé et de la sécurité du travail",
+      "description": "Certificación que garantiza el cumplimiento de las normas de salud y seguridad en el trabajo en Quebec."
+    },
+    "ccq": {
+      "name": "CCQ",
+      "fullName": "Commission de la construction du Québec",
+      "description": "Licencia de constructor que certifica nuestra competencia en la industria de la construcción."
+    },
+    "apchq": {
+      "name": "APCHQ",
+      "fullName": "Association des professionnels de la construction et de l'habitation du Québec",
+      "description": "Membresía que demuestra nuestro compromiso con las mejores prácticas de la industria."
+    },
+    "acq": {
+      "name": "ACQ",
+      "fullName": "Association de la construction du Québec",
+      "description": "Miembro activo de la principal asociación de constructores de Quebec."
+    },
+    "rbq": {
+      "name": "RBQ",
+      "fullName": "Régie du bâtiment du Québec",
+      "description": "Licencia oficial de constructor otorgada por la Régie du bâtiment du Québec."
+    },
+    "commitment": {
+      "title": "Compromiso con la Excelencia",
+      "description": "Estas certificaciones y membresías garantizan que cumplimos con los más altos estándares de calidad, seguridad y profesionalismo en todos nuestros proyectos. Tu tranquilidad es nuestra prioridad."
+    }
+  },
+  "cta": {
+    "title": "¿Listo para Comenzar tu Proyecto?",
+    "description": "Contáctanos hoy y recibe una cotización gratuita para tu proyecto",
+    "button": "Solicitar Cotización Gratis"
+  },
+  "footer": {
+    "description": "Empresa líder en construcción, excavación y terrassement con más de 20 años de experiencia en Quebec.",
+    "quickLinks": "Enlaces Rápidos",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "hours": "Horario",
+    "hoursValue": "Lunes a Viernes: 7:00 - 17:00",
+    "saturday": "Sábado: 8:00 - 12:00",
+    "rights": "Todos los derechos reservados."
+  },
+  "common": {
+    "readMore": "Leer Más",
+    "backToTop": "Volver arriba",
+    "phone": "Teléfono",
+    "email": "Correo electrónico",
+    "address": "Dirección"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "totalChanges": 20,
+  "totalFiles": 4,
+  "successFiles": 4,
+  "errorFiles": 0,
+  "fileDetails": {
+    "construccion.html": {
+      "fileName": "construccion.html",
+      "changes": [],
+      "totalChanges": 0,
+      "success": true,
+      "error": null
+    },
+    "excavacion.html": {
+      "fileName": "excavacion.html",
+      "changes": [],
+      "totalChanges": 0,
+      "success": true,
+      "error": null
+    },
+    "terrassement.html": {
+      "fileName": "terrassement.html",
+      "changes": [
+        {
+          "pattern": "Proceso - Subtítulo",
+          "occurrences": 1
+        },
+        {
+          "pattern": "Proceso - Título",
+          "occurrences": 1
+        },
+        {
+          "pattern": "Beneficios - Subtítulo",
+          "occurrences": 1
+        },
+        {
+          "pattern": "Beneficios - Título",
+          "occurrences": 1
+        },
+        {
+          "pattern": "Equipo - Subtítulo",
+          "occurrences": 1
+        },
+        {
+          "pattern": "Equipo - Título",
+          "occurrences": 1
+        },
+        {
+          "pattern": "Aplicaciones - Subtítulo",
+          "occurrences": 1
+        },
+        {
+          "pattern": "Aplicaciones - Título",
+          "occurrences": 1
+        },
+        {
+          "pattern": "FAQ - Subtítulo",
+          "occurrences": 1
+        },
+        {
+          "pattern": "FAQ - Título",
+          "occurrences": 1
+        }
+      ],
+      "totalChanges": 10,
+      "success": true,
+      "error": null
+    },
+    "gestion-proyectos.html": {
+      "fileName": "gestion-proyectos.html",
+      "changes": [
+        {
+          "pattern": "Proceso - Subtítulo",
+          "occurrences": 1
+        },
+        {
+          "pattern": "Proceso - Título",
+          "occurrences": 1
+        },
+        {
+          "pattern": "Servicios - Subtítulo",
+          "occurrences": 1
+        },
+        {
+          "pattern": "Servicios - Título",
+          "occurrences": 1
+        },
+        {
+          "pattern": "Tecnología - Subtítulo",
+          "occurrences": 1
+        },
+        {
+          "pattern": "Tecnología - Título",
+          "occurrences": 1
+        },
+        {
+          "pattern": "Beneficios - Subtítulo",
+          "occurrences": 1
+        },
+        {
+          "pattern": "Beneficios - Título",
+          "occurrences": 1
+        },
+        {
+          "pattern": "FAQ - Subtítulo",
+          "occurrences": 1
+        },
+        {
+          "pattern": "FAQ - Título",
+          "occurrences": 1
+        }
+      ],
+      "totalChanges": 10,
+      "success": true,
+      "error": null
+    }
+  }
+}

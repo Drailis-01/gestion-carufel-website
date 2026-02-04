@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Servicios profesionales de gestión de proyectos de construcción en Montreal. Coordinación experta de inicio a fin.">
+    <title>Gestión de Proyectos - Gestion Carufel Inc.</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="stylesheet" href="css/style.css?v=1.0">
+    <script src="js/components.js"></script>
+</head>
+<body>
+    <!-- El header se cargará automáticamente desde components.js -->
+
+    <!-- HERO SECTION -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Gestión de <span class="highlight">Proyectos</span></h1>
+            <p>Coordinación experta de tu proyecto de construcción de inicio a fin</p>
+        </div>
+    </section>
+
+    <!-- INTRODUCCIÓN -->
+    <section>
+        <div class="container">
+            <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+                <h2 style="margin-bottom: 1.5rem;">Tu Socio Estratégico en Construcción</h2>
+                <p style="font-size: 1.1rem; line-height: 1.8; color: var(--gray-medium); margin-bottom: 1.5rem;">
+                    En <strong>Gestion Carufel Inc.</strong>, ofrecemos servicios integrales de gestión de proyectos que transforman tu visión en realidad. Coordinamos cada aspecto de tu proyecto de construcción, desde la planificación inicial hasta la entrega final.
+                </p>
+                <p style="font-size: 1.1rem; line-height: 1.8; color: var(--gray-medium);">
+                    Con más de 13 años de experiencia gestionando proyectos de todas las escalas, garantizamos que tu construcción se complete a tiempo, dentro del presupuesto y con los más altos estándares de calidad. Nos convertimos en tu único punto de contacto, simplificando el proceso y eliminando el estrés de coordinar múltiples contratistas.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ¿QUÉ ES LA GESTIÓN DE PROYECTOS? -->
+    <section style="background-color: var(--gray-lighter);">
+        <div class="container">
+            <div class="section-title" style="text-align: center; max-width: 800px; margin: 0 auto 3rem;">
+                <p class="subtitle">Nuestro Rol</p>
+                <h2>¿Qué Incluye la Gestión de Proyectos?</h2>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem;">
+                <div style="background-color: var(--white); padding: 2.5rem 2rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    <div style="width: 70px; height: 70px; background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                        <svg viewBox="0 0 24 24" fill="white" style="width: 36px; height: 36px;">
+                            <path d="M19 3h-4.18C14.4 1.84 13.3 1 12 1c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm2 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                        </svg>
+                    </div>
+                    <h3 style="margin-bottom: 1rem; color: var(--gray-dark); font-size: 1.3rem;">Planificación Integral</h3>
+                    <p style="color: var(--gray-medium); line-height: 1.8;">
+                        Desarrollo de planes detallados que cubren cada fase del proyecto: cronogramas, presupuestos, recursos necesarios y estrategias de mitigación de riesgos.
+                    </p>
+                </div>
+
+                <div style="background-color: var(--white); padding: 2.5rem 2rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    <div style="width: 70px; height: 70px; background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                        <svg viewBox="0 0 24 24" fill="white" style="width: 36px; height: 36px;">
+                            <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+                        </svg>
+                    </div>
+                    <h3 style="margin-bottom: 1rem; color: var(--gray-dark); font-size: 1.3rem;">Coordinación de Equipos</h3>
+                    <p style="color: var(--gray-medium); line-height: 1.8;">
+                        Gestión y coordinación de todos los subcontratistas, proveedores y especialistas involucrados en el proyecto para garantizar trabajo armonioso.
+                    </p>
+                </div>
+
+                <div style="background-color: var(--white); padding: 2.5rem 2rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    <div style="width: 70px; height: 70px; background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                        <svg viewBox="0 0 24 24" fill="white" style="width: 36px; height: 36px;">
+                            <path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.10h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/>
+                        </svg>
+                    </div>
+                    <h3 style="margin-bottom: 1rem; color: var(--gray-dark); font-size: 1.3rem;">Control de Presupuesto</h3>
+                    <p style="color: var(--gray-medium); line-height: 1.8;">
+                        Monitoreo exhaustivo de costos, gestión de cambios y control financiero para mantener el proyecto dentro del presupuesto aprobado.
+                    </p>
+                </div>
+
+                <div style="background-color: var(--white); padding: 2.5rem 2rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    <div style="width: 70px; height: 70px; background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                        <svg viewBox="0 0 24 24" fill="white" style="width: 36px; height: 36px;">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                    </div>
+                    <h3 style="margin-bottom: 1rem; color: var(--gray-dark); font-size: 1.3rem;">Control de Calidad</h3>
+                    <p style="color: var(--gray-medium); line-height: 1.8;">
+                        Inspecciones regulares, verificación de cumplimiento de normas y estándares, y aseguramiento de que cada trabajo cumpla especificaciones.
+                    </p>
+                </div>
+
+                <div style="background-color: var(--white); padding: 2.5rem 2rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    <div style="width: 70px; height: 70px; background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                        <svg viewBox="0 0 24 24" fill="white" style="width: 36px; height: 36px;">
+                            <path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
+                        </svg>
+                    </div>
+                    <h3 style="margin-bottom: 1rem; color: var(--gray-dark); font-size: 1.3rem;">Gestión de Plazos</h3>
+                    <p style="color: var(--gray-medium); line-height: 1.8;">
+                        Seguimiento del cronograma, identificación de retrasos potenciales y ajustes proactivos para garantizar entrega puntual.
+                    </p>
+                </div>
+
+                <div style="background-color: var(--white); padding: 2.5rem 2rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    <div style="width: 70px; height: 70px; background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                        <svg viewBox="0 0 24 24" fill="white" style="width: 36px; height: 36px;">
+                            <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z"/>
+                        </svg>
+                    </div>
+                    <h3 style="margin-bottom: 1rem; color: var(--gray-dark); font-size: 1.3rem;">Comunicación Continua</h3>
+                    <p style="color: var(--gray-medium); line-height: 1.8;">
+                        Reportes regulares de progreso, reuniones de actualización y canal directo de comunicación para mantenerlo informado en todo momento.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NUESTRO PROCESO DE GESTIÓN -->
+    <section>
+        <div class="container">
+            <div class="section-title" style="text-align: center; max-width: 700px; margin: 0 auto 3rem;">
+                <p class="subtitle">Metodología</p>
+                <h2>Proceso de Gestión de Proyectos</h2>
+                <p style="color: var(--gray-medium);">
+                    Un enfoque estructurado basado en mejores prácticas internacionales
+                </p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <h3>Iniciación</h3>
+                    <p>Definición de alcance, objetivos y expectativas. Análisis de factibilidad y establecimiento de criterios de éxito.</p>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <h3>Planificación Detallada</h3>
+                    <p>Desarrollo del plan maestro: cronograma, presupuesto, recursos, riesgos y estrategias de comunicación.</p>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <h3>Diseño y Aprobaciones</h3>
+                    <p>Coordinación con arquitectos/ingenieros, obtención de permisos y aprobaciones de todas las partes interesadas.</p>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <h3>Contratación</h3>
+                    <p>Selección de subcontratistas calificados, negociación de contratos y establecimiento de términos claros.</p>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">05</div>
+                    <h3>Ejecución</h3>
+                    <p>Coordinación diaria del sitio, gestión de equipos, control de calidad y supervisión de todas las actividades.</p>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">06</div>
+                    <h3>Monitoreo y Control</h3>
+                    <p>Seguimiento de KPIs, gestión de cambios, control de costos y ajustes proactivos según necesidad.</p>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">07</div>
+                    <h3>Inspección y Pruebas</h3>
+                    <p>Verificación de cumplimiento, pruebas de sistemas, inspecciones finales y obtención de certificados.</p>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">08</div>
+                    <h3>Cierre y Entrega</h3>
+                    <p>Entrega formal del proyecto, documentación completa, capacitación si aplica y seguimiento post-entrega.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS ESPECÍFICOS -->
+    <section style="background-color: var(--gray-lighter);">
+        <div class="container">
+            <div class="section-title" style="text-align: center; max-width: 800px; margin: 0 auto 3rem;">
+                <p class="subtitle">Servicios Especializados</p>
+                <h2>Tipos de Proyectos que Gestionamos</h2>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                        </svg>
+                    </div>
+                    <h3>Proyectos Residenciales</h3>
+                    <ul style="text-align: left; color: var(--gray-medium); line-height: 1.8; margin-top: 1rem;">
+                        <li>Construcción de casas nuevas</li>
+                        <li>Renovaciones mayores</li>
+                        <li>Ampliaciones residenciales</li>
+                        <li>Condominios y multi-familiares</li>
+                        <li>Proyectos de diseño-construcción</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"/>
+                        </svg>
+                    </div>
+                    <h3>Proyectos Comerciales</h3>
+                    <ul style="text-align: left; color: var(--gray-medium); line-height: 1.8; margin-top: 1rem;">
+                        <li>Oficinas corporativas</li>
+                        <li>Locales comerciales</li>
+                        <li>Restaurantes y hoteles</li>
+                        <li>Centros comerciales</li>
+                        <li>Espacios de retail</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 2H9c-1.1 0-2 .9-2 2v5.5c0 .83.67 1.5 1.5 1.5H9v2H7v2h10v-2h-2v-2h.5c.83 0 1.5-.67 1.5-1.5V4c0-1.1-.9-2-2-2zm0 7.5H9V4h10v5.5zM5 16v2H3v6h18v-6h-2v-2H5z"/>
+                        </svg>
+                    </div>
+                    <h3>Proyectos Industriales</h3>
+                    <ul style="text-align: left; color: var(--gray-medium); line-height: 1.8; margin-top: 1rem;">
+                        <li>Bodegas y almacenes</li>
+                        <li>Plantas de producción</li>
+                        <li>Instalaciones logísticas</li>
+                        <li>Talleres especializados</li>
+                        <li>Infraestructura industrial</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12,2C8.13,2,5,5.13,5,9c0,5.25,7,13,7,13s7-7.75,7-13C19,5.13,15.87,2,12,2z M12,11.5c-1.38,0-2.5-1.12-2.5-2.5 s1.12-2.5,2.5-2.5s2.5,1.12,2.5,2.5S13.38,11.5,12,11.5z"/>
+                        </svg>
+                    </div>
+                    <h3>Obras Civiles</h3>
+                    <ul style="text-align: left; color: var(--gray-medium); line-height: 1.8; margin-top: 1rem;">
+                        <li>Pavimentación de calles</li>
+                        <li>Sistemas de drenaje urbano</li>
+                        <li>Parques y espacios públicos</li>
+                        <li>Infraestructura municipal</li>
+                        <li>Trabajos de urbanización</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/>
+                        </svg>
+                    </div>
+                    <h3>Proyectos Llave en Mano</h3>
+                    <ul style="text-align: left; color: var(--gray-medium); line-height: 1.8; margin-top: 1rem;">
+                        <li>Gestión completa desde diseño</li>
+                        <li>Coordinación total de trades</li>
+                        <li>Un solo punto de contacto</li>
+                        <li>Garantía integral del proyecto</li>
+                        <li>Entrega lista para uso</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z"/>
+                        </svg>
+                    </div>
+                    <h3>Consultoría de Construcción</h3>
+                    <ul style="text-align: left; color: var(--gray-medium); line-height: 1.8; margin-top: 1rem;">
+                        <li>Análisis de factibilidad</li>
+                        <li>Estimación de costos</li>
+                        <li>Value engineering</li>
+                        <li>Revisión de contratos</li>
+                        <li>Auditoría de proyectos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HERRAMIENTAS Y METODOLOGÍAS -->
+    <section>
+        <div class="container">
+            <div class="section-title" style="text-align: center; max-width: 800px; margin: 0 auto 3rem;">
+                <p class="subtitle">Tecnología y Metodología</p>
+                <h2>Herramientas Profesionales de Gestión</h2>
+                <p style="color: var(--gray-medium);">
+                    Utilizamos software líder de la industria y metodologías probadas
+                </p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-bottom: 3rem;">
+                <div style="background-color: var(--white); padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center;">
+                    <div style="width: 70px; height: 70px; background-color: rgba(255, 107, 0, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+                        <svg viewBox="0 0 24 24" fill="var(--primary-color)" style="width: 36px; height: 36px;">
+                            <path d="M19 3h-4.18C14.4 1.84 13.3 1 12 1c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm2 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                        </svg>
+                    </div>
+                    <h4 style="margin-bottom: 1rem;">Software de Gestión</h4>
+                    <p style="color: var(--gray-medium);">Plataformas especializadas para planificación, seguimiento y reportes en tiempo real</p>
+                </div>
+
+                <div style="background-color: var(--white); padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center;">
+                    <div style="width: 70px; height: 70px; background-color: rgba(255, 107, 0, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+                        <svg viewBox="0 0 24 24" fill="var(--primary-color)" style="width: 36px; height: 36px;">
+                            <path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"/>
+                        </svg>
+                    </div>
+                    <h4 style="margin-bottom: 1rem;">Metodología Lean</h4>
+                    <p style="color: var(--gray-medium);">Principios Lean Construction para eliminar desperdicios y maximizar valor</p>
+                </div>
+
+                <div style="background-color: var(--white); padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center;">
+                    <div style="width: 70px; height: 70px; background-color: rgba(255, 107, 0, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+                        <svg viewBox="0 0 24 24" fill="var(--primary-color)" style="width: 36px; height: 36px;">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+                        </svg>
+                    </div>
+                    <h4 style="margin-bottom: 1rem;">BIM (Building Information Modeling)</h4>
+                    <p style="color: var(--gray-medium);">Modelos 3D inteligentes para visualización, coordinación y detección de conflictos</p>
+                </div>
+
+                <div style="background-color: var(--white); padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center;">
+                    <div style="width: 70px; height: 70px; background-color: rgba(255, 107, 0, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+                        <svg viewBox="0 0 24 24" fill="var(--primary-color)" style="width: 36px; height: 36px;">
+                            <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
+                        </svg>
+                    </div>
+                    <h4 style="margin-bottom: 1rem;">Sistema de Calidad ISO</h4>
+                    <p style="color: var(--gray-medium);">Procesos estandarizados basados en normas internacionales de calidad</p>
+                </div>
+            </div>
+
+            <div style="background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%); padding: 3rem 2rem; border-radius: 15px; color: var(--white); text-align: center;">
+                <h3 style="color: var(--white); margin-bottom: 1rem; font-size: 1.8rem;">Certificaciones PMI</h3>
+                <p style="font-size: 1.1rem; margin-bottom: 0; max-width: 800px; margin: 0 auto; line-height: 1.8;">
+                    Nuestros gestores de proyectos están certificados por el Project Management Institute (PMI), garantizando adherencia a las mejores prácticas globales del PMBOK (Project Management Body of Knowledge). Aplicamos metodologías ágiles y tradicionales según las necesidades específicas de cada proyecto.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFICIOS DE LA GESTIÓN PROFESIONAL -->
+    <section style="background-color: var(--gray-lighter);">
+        <div class="container">
+            <div class="section-title" style="text-align: center; max-width: 700px; margin: 0 auto 3rem;">
+                <p class="subtitle">Ventajas Competitivas</p>
+                <h2>Beneficios de la Gestión Profesional de Proyectos</h2>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-item">
+                    <svg viewBox="0 0 24 24" fill="currentColor" style="width: 50px; height: 50px; margin: 0 auto 1rem; color: var(--primary-color);">
+                        <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                    </svg>
+                    <h4>Ahorro de Tiempo</h4>
+                    <p>Optimización del cronograma y reducción del tiempo total del proyecto hasta en un 20%</p>
+                </div>
+
+                <div class="feature-item">
+                    <svg viewBox="0 0 24 24" fill="currentColor" style="width: 50px; height: 50px; margin: 0 auto 1rem; color: var(--primary-color);">
+                        <path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/>
+                    </svg>
+                    <h4>Control de Costos</h4>
+                    <p>Gestión precisa del presupuesto evitando sobrecostos y optimizando gastos</p>
+                </div>
+
+                <div class="feature-item">
+                    <svg viewBox="0 0 24 24" fill="currentColor" style="width: 50px; height: 50px; margin: 0 auto 1rem; color: var(--primary-color);">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                    <h4>Calidad Garantizada</h4>
+                    <p>Supervisión constante y control de calidad en cada fase del proyecto</p>
+                </div>
+
+                <div class="feature-item">
+                    <svg viewBox="0 0 24 24" fill="currentColor" style="width: 50px; height: 50px; margin: 0 auto 1rem; color: var(--primary-color);">
+                        <path d="M12 2l-5.5 9h11z"/>
+                        <circle cx="17.5" cy="17.5" r="4.5"/>
+                        <path d="M3 13.5h8v8H3z"/>
+                    </svg>
+                    <h4>Mitigación de Riesgos</h4>
+                    <p>Identificación proactiva y gestión de riesgos antes de que se conviertan en problemas</p>
+                </div>
+
+                <div class="feature-item">
+                    <svg viewBox="0 0 24 24" fill="currentColor" style="width: 50px; height: 50px; margin: 0 auto 1rem; color: var(--primary-color);">
+                        <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z"/>
+                    </svg>
+                    <h4>Comunicación Eficaz</h4>
+                    <p>Canal único de comunicación que simplifica coordinación y toma de decisiones</p>
+                </div>
+
+                <div class="feature-item">
+                    <svg viewBox="0 0 24 24" fill="currentColor" style="width: 50px; height: 50px; margin: 0 auto 1rem; color: var(--primary-color);">
+                        <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/>
+                    </svg>
+                    <h4>Menos Estrés</h4>
+                    <p>Nos encargamos de toda la coordinación, permitiéndole enfocarse en su negocio</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PREGUNTAS FRECUENTES -->
+    <section>
+        <div class="container">
+            <div class="section-title" style="text-align: center; max-width: 800px; margin: 0 auto 3rem;">
+                <p class="subtitle">FAQ</p>
+                <h2>Preguntas Frecuentes sobre Gestión de Proyectos</h2>
+                <p style="color: var(--gray-medium);">
+                    Respuestas a las preguntas más comunes sobre nuestros servicios
+                </p>
+            </div>
+
+            <div style="max-width: 900px; margin: 0 auto;">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 style="font-size: 1.1rem; color: var(--gray-dark); margin: 0;">¿Cuánto cuesta la gestión de un proyecto?</h3>
+                        <svg viewBox="0 0 24 24" fill="var(--primary-color)" style="width: 24px; height: 24px; min-width: 24px;">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p style="color: var(--gray-medium); line-height: 1.8;">
+                            Nuestros honorarios de gestión generalmente representan entre el 10-15% del valor total del proyecto de construcción. El porcentaje exacto depende del tamaño, complejidad y duración del proyecto. Para proyectos pequeños, podemos trabajar con tarifas fijas. Este costo se justifica ampliamente por el ahorro en tiempo, prevención de sobrecostos y garantía de calidad que proporcionamos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 style="font-size: 1.1rem; color: var(--gray-dark); margin: 0;">¿En qué fase debo contratar un gestor de proyectos?</h3>
+                        <svg viewBox="0 0 24 24" fill="var(--primary-color)" style="width: 24px; height: 24px; min-width: 24px;">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p style="color: var(--gray-medium); line-height: 1.8;">
+                            Idealmente, desde la fase conceptual o de diseño. Nuestra participación temprana permite: mejor planificación del presupuesto, identificación de problemas potenciales antes de la construcción, value engineering para optimizar costos, coordinación eficiente con arquitectos e ingenieros, y desarrollo de cronogramas realistas. Sin embargo, podemos incorporarnos en cualquier etapa del proyecto.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 style="font-size: 1.1rem; color: var(--gray-dark); margin: 0;">¿Cuál es la diferencia entre un gestor de proyectos y un general contractor?</h3>
+                        <svg viewBox="0 0 24 24" fill="var(--primary-color)" style="width: 24px; height: 24px; min-width: 24px;">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p style="color: var(--gray-medium); line-height: 1.8;">
+                            Un general contractor ejecuta el trabajo de construcción y puede subcontratar trades específicos. Un gestor de proyectos actúa como su representante, supervisando a TODOS los contratistas (incluido el general contractor), controlando presupuestos, cronogramas y calidad. Trabajamos para USTED, no para los contratistas, asegurando que sus intereses estén protegidos en todo momento. Podemos funcionar también como general contractor si el proyecto lo requiere.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 style="font-size: 1.1rem; color: var(--gray-dark); margin: 0;">¿Con qué frecuencia recibiré reportes de progreso?</h3>
+                        <svg viewBox="0 0 24 24" fill="var(--primary-color)" style="width: 24px; height: 24px; min-width: 24px;">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p style="color: var(--gray-medium); line-height: 1.8;">
+                            Proporcionamos reportes semanales detallados que incluyen: progreso vs. cronograma, estado financiero vs. presupuesto, fotografías del sitio, problemas identificados y soluciones implementadas, y próximos hitos. Además, tiene acceso 24/7 a nuestro portal en línea para ver actualizaciones en tiempo real. Realizamos reuniones presenciales quincenales o según su preferencia. Para situaciones urgentes, estamos disponibles por teléfono en cualquier momento.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 style="font-size: 1.1rem; color: var(--gray-dark); margin: 0;">¿Qué pasa si el proyecto se atrasa o excede el presupuesto?</h3>
+                        <svg viewBox="0 0 24 24" fill="var(--primary-color)" style="width: 24px; height: 24px; min-width: 24px;">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p style="color: var(--gray-medium); line-height: 1.8;">
+                            Nuestra gestión proactiva minimiza estos riesgos. Si surgen imprevistos: le notificamos inmediatamente, presentamos opciones y soluciones, analizamos impactos en tiempo y costo, ajustamos el plan según su decisión. Incluimos fondos de contingencia (típicamente 5-10%) en la planificación inicial. Si los problemas son causados por contratistas, los hacemos responsables según sus contratos. Nuestro objetivo es mantener el proyecto en tiempo y presupuesto.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 style="font-size: 1.1rem; color: var(--gray-dark); margin: 0;">¿Ustedes seleccionan a los subcontratistas o puedo elegir los míos?</h3>
+                        <svg viewBox="0 0 24 24" fill="var(--primary-color)" style="width: 24px; height: 24px; min-width: 24px;">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p style="color: var(--gray-medium); line-height: 1.8;">
+                            Trabajamos de ambas formas. Podemos: recomendar subcontratistas de nuestra red pre-calificada (verificados por experiencia, seguro y desempeño pasado), gestionar licitaciones competitivas para obtener las mejores propuestas, o trabajar con subcontratistas que usted prefiera (previa verificación de calificaciones). En todos los casos, revisamos contratos, coordinamos el trabajo y supervisamos el desempeño para asegurar cumplimiento de estándares.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 style="font-size: 1.1rem; color: var(--gray-dark); margin: 0;">¿Qué sucede al finalizar el proyecto?</h3>
+                        <svg viewBox="0 0 24 24" fill="var(--primary-color)" style="width: 24px; height: 24px; min-width: 24px;">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p style="color: var(--gray-medium); line-height: 1.8;">
+                            Al finalizar, entregamos: inspección final completa con punch list, toda la documentación: planos as-built, manuales, garantías, certificados de ocupación y permisos finales, capacitación sobre sistemas y equipos si aplica, lista de contactos para mantenimiento futuro. Además, realizamos seguimiento post-entrega a 30, 60 y 90 días para asegurar su completa satisfacción y resolver cualquier deficiencia menor.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 style="font-size: 1.1rem; color: var(--gray-dark); margin: 0;">¿Están asegurados y qué garantías ofrecen?</h3>
+                        <svg viewBox="0 0 24 24" fill="var(--primary-color)" style="width: 24px; height: 24px; min-width: 24px;">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                        </svg>
+                    </div>
+                    <div class="faq-answer">
+                        <p style="color: var(--gray-medium); line-height: 1.8;">
+                            Sí, contamos con: seguro de responsabilidad profesional de $2M, seguro de responsabilidad civil general de $5M, licencia RBQ vigente en todas las categorías aplicables. Garantizamos: gestión profesional según estándares PMI, cumplimiento de códigos y regulaciones, coordinación efectiva de todos los trades. Además, aseguramos que TODOS los subcontratistas tengan seguros apropiados antes de iniciar trabajos. Su proyecto está protegido en todo momento.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LLAMADA A LA ACCIÓN -->
+    <section style="background-color: var(--gray-lighter);">
+        <div class="container" style="text-align: center; padding: 4rem 2rem;">
+            <h2 style="margin-bottom: 1rem;">¿Listo para Gestionar su Proyecto Profesionalmente?</h2>
+            <p style="font-size: 1.2rem; color: var(--gray-medium); margin-bottom: 2rem;">
+                Solicite una consulta gratuita para discutir su proyecto
+            </p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="contacto.html" class="btn btn-primary" style="font-size: 1.1rem; padding: 1rem 3rem;">
+                    Solicitar Consulta
+                </a>
+                <a href="realizaciones.html" class="btn btn-outline" style="font-size: 1.1rem; padding: 1rem 3rem;">
+                    Ver Proyectos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- El footer se cargará automáticamente desde components.js -->
+
+    <!-- Botón Back to Top -->
+    <button id="backToTop" class="back-to-top" aria-label="Volver arriba">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+        </svg>
+    </button>
+
+    <script src="js/main.js"></script>
+    <script src="js/translator.js"></script>
+</body>
+</html>
