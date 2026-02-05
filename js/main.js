@@ -779,7 +779,7 @@ function setLanguage(lang) {
 
 // Función para inicializar el sistema de traducción
 function initTranslation() {
-  const lang = localStorage.getItem("lang") || "es";
+  const lang = localStorage.getItem("lang") || "fr";
   setLanguage(lang);
   
   // Agregar event listeners a los botones de idioma

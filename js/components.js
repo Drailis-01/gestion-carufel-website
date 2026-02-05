@@ -29,16 +29,16 @@ function loadHeader() {
             <!-- Selector de Idiomas Dropdown -->
             <div class="language-selector dropdown">
                 <button class="language-dropdown-btn">
-                    <span class="current-flag">🇪🇸</span>
-                    <span class="current-lang">ES</span>
+                    <span class="current-flag">�🇷</span>
+                    <span class="current-lang">FR</span>
                     <span class="dropdown-arrow">▼</span>
                 </button>
                 <div class="language-dropdown-menu">
-                    <button class="language-option active" data-lang="es" data-flag="🇪🇸">
+                    <button class="language-option" data-lang="es" data-flag="🇪🇸">
                         <span class="flag">🇪🇸</span>
                         <span class="lang-name">Español</span>
                     </button>
-                    <button class="language-option" data-lang="fr" data-flag="🇫🇷">
+                    <button class="language-option active" data-lang="fr" data-flag="🇫🇷">
                         <span class="flag">🇫🇷</span>
                         <span class="lang-name">Français</span>
                     </button>
